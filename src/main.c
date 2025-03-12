@@ -32,7 +32,9 @@ int main(void) {
         printf("========================\n");
 
         printf("Enter your choice: ");
-        scanf("%d", &choice);
+        if (fgets(input, sizeof(input), stdin)) {
+            choice = strtol(input, NULL, 10);
+            }
         switch(choice) {
             case 1:
             for (unsigned int i = 0; i < MAX_DEVELOPERS; ++i) {
