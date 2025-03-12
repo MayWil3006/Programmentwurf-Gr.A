@@ -1,7 +1,7 @@
 #ifndef DEVELOPER_GROUP_H_NHMPTW
 #define DEVELOPER_GROUP_H_NHMPTW
 
-#include "developer.h"
+#include "../include/developer.h"
 
 #define MAX_DEVELOPERS 3
 #define MAX_LOGO_SIZE 500
