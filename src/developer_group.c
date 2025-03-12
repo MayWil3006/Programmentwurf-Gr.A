@@ -54,8 +54,7 @@ void print_developer_group(DeveloperGroup const *const developer_group)
 void print_group_logo(DeveloperGroup const *const developer_group) //function prototype to print the group logo
 {
     if(developer_group != NULL) {
-void print_group_logo(DeveloperGroup const *const developer_group); //function prototype to print the group logo
-        printf("====================================\n");
+printf("%s\n", developer_group->group_logo);
     }
     else {
         printf("Pointer developer_group is NULL\n");
