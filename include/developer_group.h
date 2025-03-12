@@ -14,12 +14,10 @@ typedef struct {
 
 void create_new_developer_group(DeveloperGroup *const developer_group, const char group_logo[]); //function prototype to create a new object of type developer group
 
-void add_developer_to_group(DeveloperGroup *const developer_group, const Developer *const developer); //function prototype to add a developer to the developer group
+void add_developer_to_group(DeveloperGroup *const developer_group, const Developer *const developer_ptr); //function prototype to add a developer to the developer group
 
-void print_developer_group(DeveloperGroup const *const developer_group); //function prototype to print the developer group details
+void print_developer_group(DeveloperGroup const *const developer_group); //function prototype to print the developer group details and the logo
 
 void print_group_logo(DeveloperGroup const *const developer_group); //function prototype to print the group logo
 
-//void print_whole_group(DeveloperGroup const *const developer_group); //function prototype to print the whole group
-
-#endif DEVELOPER_H_NHMPTW
+#endif //DEVELOPER_H_NHMPTW
