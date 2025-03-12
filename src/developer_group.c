@@ -35,20 +35,20 @@ void add_developer_to_group(DeveloperGroup *const developer_group, const Develop
 }
 
 void print_developer_group(DeveloperGroup const *const developer_group)
-{ //function prototype to print the developer group details
+{ 
+    if(developer_group != NULL){
+        //function prototype to print the developer group details
         printf("Developer Group: \n");
         printf("Group Logo: %s\n", developer_group->group_logo);
-        printf("====================================\n");
         for (unsigned int i = 0; i < MAX_DEVELOPERS; ++i) {
             if(developer_group->developer_list[i].name[0] != '\0') {
-                break;
             print_new_developer(&developer_group->developer_list[i]);
         }
-
+    }
+    }
     else {
         printf("Pointer developer_group is NULL\n");
     }
-}
 }
 
 void print_group_logo(DeveloperGroup const *const developer_group) //function prototype to print the group logo
