@@ -14,9 +14,9 @@ int main(void) {
 
     DeveloperGroup developer_group;
     create_new_developer_group(&developer_group, AIRPLANE_LOGO);
-    Developer harry = {"Harry", "MaxTechSupport"};
-    Developer nico = {"Nico", "Masadian_14"};
-    Developer maya = {"Maya", "Maya_123"};
+    Developer harry = {"Harry", "Stewardess"};
+    Developer nico = {"Nico", "FirstClassPassenger"};
+    Developer maya = {"Maya", "Pilot"};
 
     add_developer_to_group(&developer_group, &harry);
     add_developer_to_group(&developer_group, &nico);

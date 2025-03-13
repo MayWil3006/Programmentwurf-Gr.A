@@ -4,7 +4,7 @@
 #include "../include/developer.h"
 
 #define MAX_DEVELOPERS 3
-#define MAX_LOGO_SIZE 500
+#define MAX_LOGO_SIZE 700
 
 typedef struct {
     Developer developer_list[MAX_DEVELOPERS]; //array saves up to 3 developers
