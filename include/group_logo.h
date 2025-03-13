@@ -1,6 +1,11 @@
 #ifndef GROUP_LOGO_H_NHMPTW
 #define GROUP_LOGO_H_NHMPTW
 
+/*
+group_logo.h defines the group logo for the developer group.
+File contains a static constant string with the group logo.
+*/
+
 static const char* AIRPLANE_LOGO =
 " ==========================================================================\n"                                                              
 "         ( ( `   )_)\n"                                                     

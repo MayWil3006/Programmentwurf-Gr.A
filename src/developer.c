@@ -1,36 +1,34 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+developer.c defines functions to initialize
+and print Developer struct
+*/
+
 #include "../include/developer.h"
 
 
-/*
-function initializes the developer struct with the name and alias
-*/
 
-void create_new_developer(Developer *const developer_ptr, const char name[], const char alias[]) { //function definition: creates new developer
+//Function initializes the Developer struct with a name an alias
+void create_new_developer(Developer *const developer_ptr, const char name[], const char alias[]) {
     if(developer_ptr != NULL) {
-        strncpy(developer_ptr->name, name, strlen(name) + 1); //kopiert den String name in developer_ptr->name
-        developer_ptr->name[strlen(name)] = '\0'; //setzt letztes Zeichen auf 0 um string zu beenden
+        //Copy the name into the Developer struct
+        strncpy(developer_ptr->name, name, strlen(name) + 1); 
+        developer_ptr->name[strlen(name)] = '\0'; //Ensure string termination
 
-        strncpy(developer_ptr->alias, alias, strlen(alias) + 1);
+        //Copy the alias into the Developer struct
+        strncpy(developer_ptr->alias, alias, strlen(alias) + 1); 
         developer_ptr->alias[strlen(alias)] = '\0';
     }
     else {
-        printf("Pointer developer_ptr is NULL\n");
-    }
-    
+        printf("Pointer developer_ptr is NULL\n"); //Error handling in case of a NULL pointer
+    }   
 }
-    /*Developer developer;
-    strncpy(developer.name, name, sizeof(developer.name) - 1);
-    developer.name[sizeof(developer.name) - 1] = '\0';
 
-    strncpy(developer.alias, alias, sizeof(developer.alias) - 1);
-    developer.alias[sizeof(developer.alias) - 1] = '\0';*/
 
-    //return developer;
-
-void print_new_developer(Developer const *const developer_ptr) { //function definition: prints developer's name and alias
+//Function prints the details of a Developer
+void print_new_developer(Developer const *const developer_ptr) {
     if(developer_ptr != NULL) {
         printf("====================================\n");
         printf("Developer: \n");
@@ -39,6 +37,6 @@ void print_new_developer(Developer const *const developer_ptr) { //function defi
         printf("====================================\n");
     }
     else {
-        printf("Pointer developer_ptr is NULL\n");
+        printf("Pointer developer_ptr is NULL\n"); //Error handling in case of a NULL pointer
     }
 }
