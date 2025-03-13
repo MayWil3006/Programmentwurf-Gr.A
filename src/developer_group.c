@@ -39,7 +39,7 @@ void print_developer_group(DeveloperGroup const *const developer_group)
     if(developer_group != NULL){
         //function prototype to print the developer group details
         printf("Developer Group: \n");
-        printf("Group Logo: %s\n", developer_group->group_logo);
+        printf("Group Logo:\n %s\n", developer_group->group_logo);
         for (unsigned int i = 0; i < MAX_DEVELOPERS; ++i) {
             if(developer_group->developer_list[i].name[0] != '\0') {
             print_new_developer(&developer_group->developer_list[i]);
