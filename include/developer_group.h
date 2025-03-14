@@ -8,7 +8,7 @@ and function prototypes
 
 #include "../include/developer.h"
 
-#define MAX_DEVELOPERS 3 // Maxiumum number of developers in the group
+#define MAX_DEVELOPERS 3 // Maximum number of developers in the group
 #define MAX_LOGO_SIZE 700 // Maximum size for storing the group logo
 
 
