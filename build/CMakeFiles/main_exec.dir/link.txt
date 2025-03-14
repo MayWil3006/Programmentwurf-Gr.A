@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/main_exec.dir/link.d CMakeFiles/main_exec.dir/src/main.c.o -o main_exec  libdeveloper_ex.a

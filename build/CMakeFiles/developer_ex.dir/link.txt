@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeveloper_ex.a CMakeFiles/developer_ex.dir/src/developer.c.o CMakeFiles/developer_ex.dir/src/developer_group.c.o
+/usr/bin/ranlib libdeveloper_ex.a

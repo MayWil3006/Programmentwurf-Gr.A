@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/workspaces/Programmentwurf-Gr.A/build",
+  "command": "/usr/bin/gcc -I/workspaces/Programmentwurf-Gr.A/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/developer_ex.dir/src/developer.c.o -c /workspaces/Programmentwurf-Gr.A/src/developer.c",
+  "file": "/workspaces/Programmentwurf-Gr.A/src/developer.c",
+  "output": "CMakeFiles/developer_ex.dir/src/developer.c.o"
+},
+{
+  "directory": "/workspaces/Programmentwurf-Gr.A/build",
+  "command": "/usr/bin/gcc -I/workspaces/Programmentwurf-Gr.A/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/developer_ex.dir/src/developer_group.c.o -c /workspaces/Programmentwurf-Gr.A/src/developer_group.c",
+  "file": "/workspaces/Programmentwurf-Gr.A/src/developer_group.c",
+  "output": "CMakeFiles/developer_ex.dir/src/developer_group.c.o"
+},
+{
+  "directory": "/workspaces/Programmentwurf-Gr.A/build",
+  "command": "/usr/bin/gcc -I/workspaces/Programmentwurf-Gr.A/include -g -std=gnu11 -Wall -Wextra -Werror -pedantic -O0 -o CMakeFiles/main_exec.dir/src/main.c.o -c /workspaces/Programmentwurf-Gr.A/src/main.c",
+  "file": "/workspaces/Programmentwurf-Gr.A/src/main.c",
+  "output": "CMakeFiles/main_exec.dir/src/main.c.o"
+}
+]

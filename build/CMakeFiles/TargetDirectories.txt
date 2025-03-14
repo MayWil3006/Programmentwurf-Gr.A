@@ -1,0 +1,4 @@
+/workspaces/Programmentwurf-Gr.A/build/CMakeFiles/developer_ex.dir
+/workspaces/Programmentwurf-Gr.A/build/CMakeFiles/main_exec.dir
+/workspaces/Programmentwurf-Gr.A/build/CMakeFiles/edit_cache.dir
+/workspaces/Programmentwurf-Gr.A/build/CMakeFiles/rebuild_cache.dir
