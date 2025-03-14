@@ -15,3 +15,5 @@ This is a template repository for the lecture [learn2code](https://github.com/Be
 2. Basic files
 3. Common development environment to be used in VSCode and codespace
 4. Some templates for e.g. clang-format and clang-tidy files
+
+5. test
