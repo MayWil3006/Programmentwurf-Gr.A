@@ -42,8 +42,8 @@ int main(void) {
         printf("========================\n");
 
         printf("Enter your choice: "); //Get user input
-        if (fgets(input, sizeof(input), stdin)) {
-            choice = strtol(input, NULL, 10); //convert input to integer
+        if (fgets(input, sizeof(input), stdin)) { //Read input as string
+            choice = strtol(input, NULL, 10); //convert input string to integer
             }
 
         //Process user input
@@ -71,6 +71,10 @@ int main(void) {
             case 4:
             //Exit the program
                 printf("Exiting...\n");
+                free_developer(&harry);
+                free_developer(&nico);
+                free_developer(&maya);
+                continue_loop = 0;
                 break;
 
             default:

@@ -24,5 +24,8 @@ void create_new_developer(Developer *const developer_ptr, const char name[], con
 //Function prototype to print the developers details
 void print_new_developer(Developer const *const developer_ptr);
 
+//Function prototype to free the memory of a developer
+void free_developer(Developer *const developer_ptr);
+
 #endif //DEVELOPER_H_NHMPTW 
 

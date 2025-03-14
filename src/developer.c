@@ -40,3 +40,14 @@ void print_new_developer(Developer const *const developer_ptr) {
         printf("Pointer developer_ptr is NULL\n"); //Error handling in case of a NULL pointer
     }
 }
+
+//Function frees the memory of a developer
+void free_developer(Developer *const developer_ptr) {
+    if(developer_ptr != NULL) {
+        developer_ptr->name[0] = '\0';
+        developer_ptr->alias[0] = '\0';
+    }
+    else {
+        printf("Pointer developer_ptr is NULL\n"); //Error handling in case of a NULL pointer
+    }
+}
