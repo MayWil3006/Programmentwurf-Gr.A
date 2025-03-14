@@ -16,10 +16,8 @@ typedef struct {
     char alias[MAX_ALIAS];
 } Developer;
 
-
 //Function prototype to initialize a developer struct with a given name and alias
 void create_new_developer(Developer *const developer_ptr, const char name[], const char alias[]); 
-
 
 //Function prototype to print the developers details
 void print_new_developer(Developer const *const developer_ptr);

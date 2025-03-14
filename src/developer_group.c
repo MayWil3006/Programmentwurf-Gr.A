@@ -26,7 +26,6 @@ void create_new_developer_group(DeveloperGroup *const developer_group, const cha
     }
 }
 
-
 //Function adds a developer to the DeveloperGroup
 void add_developer_to_group(DeveloperGroup *const developer_group, const Developer *const developer_ptr)
 {
@@ -45,7 +44,6 @@ void add_developer_to_group(DeveloperGroup *const developer_group, const Develop
     }
 }
 
-
 //Function prints details and group logo of the DeveloperGroup
 void print_developer_group(DeveloperGroup const *const developer_group)
 { 
@@ -62,7 +60,6 @@ void print_developer_group(DeveloperGroup const *const developer_group)
         printf("Pointer developer_group is NULL\n"); //Error handling in case of a NULL pointer
     }
 }
-
 
 //Function prints only the group logo
 void print_group_logo(DeveloperGroup const *const developer_group) 

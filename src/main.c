@@ -17,7 +17,7 @@ int main(void) {
     int continue_loop = 1; //Flag to control menu loop
 
     
-    //Creae a new DeveloperGroup and initialize it with logo
+    //Create a new DeveloperGroup and initialize it with logo
     DeveloperGroup developer_group;
     create_new_developer_group(&developer_group, AIRPLANE_LOGO);
 

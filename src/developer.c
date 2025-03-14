@@ -9,13 +9,12 @@ and print Developer struct
 #include "../include/developer.h"
 
 
-
 //Function initializes the Developer struct with a name an alias
 void create_new_developer(Developer *const developer_ptr, const char name[], const char alias[]) {
     if(developer_ptr != NULL) {
         //Copy the name into the Developer struct
         strncpy(developer_ptr->name, name, strlen(name) + 1); 
-        developer_ptr->name[strlen(name)] = '\0'; //Ensure string termination
+        developer_ptr->name[strlen(name)] = '\0'; //Ensure null-termination
 
         //Copy the alias into the Developer struct
         strncpy(developer_ptr->alias, alias, strlen(alias) + 1); 
@@ -25,7 +24,6 @@ void create_new_developer(Developer *const developer_ptr, const char name[], con
         printf("Pointer developer_ptr is NULL\n"); //Error handling in case of a NULL pointer
     }   
 }
-
 
 //Function prints the details of a Developer
 void print_new_developer(Developer const *const developer_ptr) {
