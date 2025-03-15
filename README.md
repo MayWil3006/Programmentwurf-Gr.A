@@ -17,5 +17,7 @@ Project Name: High-flyer
 
 Team Members: Maya Willmann, Nico Putscher, Harry Trinh
 
+To run the program: go to the "build"-folder and run the executable file with: ./main_exec
+
 Project Description:
 This project is part of the Learn2Code course and aims to apply the principles of software engineering in a practical way. 
